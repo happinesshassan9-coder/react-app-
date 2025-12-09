@@ -1,3 +1,38 @@
+React Project Setup Assignment
+
+1. What is NPM?
+NPM stands for Node Package Manager. It is a tool used to install, manage, and update JavaScript packages and libraries needed for a project. It helps developers easily install tools like React and Vite.
+
+2. What is package.json?
+package.json is a file that contains important information about a project such as the project name, dependencies, version, and commands used to run the project. It helps manage the project structure and tools.
+
+3. What is Vite?
+Vite is a modern development tool used to quickly build and run fast web applications like React. It provides a faster development experience compared to older tools.
+
+4. How I Set Up My React Project
+Here is a step by step guide: 
+1. Installed Node.js
+2. Created a React project using Vite
+3. Installed project dependencies using npm install
+4. Ran the project using npm run dev
+5. Uploaded the project to GitHub
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
