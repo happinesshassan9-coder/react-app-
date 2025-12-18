@@ -10,7 +10,7 @@ import animation1 from "../assets/images/animation-1.svg";
 import animation2 from "../assets/images/animation-2.svg";
 import animation3 from "../assets/images/animation-3.jpg";
 
-import subscribers from "../assets/images/10k-student.svg";
+import subscribers from "../assets/images/10k-Student.svg";
 import people from "../assets/images/subscribers.svg";
 
 export default function Hero() {
