@@ -1,24 +1,130 @@
-.testimonials {
-  padding: 80px 8%;
-  text-align: center;
+.testimonial-section {
+  position: relative;
+  padding: 70px 40px;
+  background: #ffffff;
+  overflow: hidden;
 }
+
+
+.testimonial-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.testimonial-header .tag {
+  font-size: 12px;
+  font-weight: 600;
+  color: #f59e0b;
+  letter-spacing: 1px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.testimonial-header h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #0c2d4a;
+}
+
 
 .testimonial-grid {
+  max-width: 1100px;
+  margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
-  margin-top: 40px;
+  gap: 28px;
 }
 
-.testimonial {
-  background: #fff7ed;
-  padding: 30px;
-  border-radius: 30px;
-  font-weight: 500;
+
+.testimonial-card {
+  border: 2px dashed #fbb034;
+  border-radius: 14px;
+  padding: 26px 24px;
+  background: #fff;
 }
 
-@media (max-width: 900px) {
-  .testimonial-grid {
-    grid-template-columns: 1fr;
-  }
+.testimonial-card.active {
+  background: #fffdf8;
+}
+
+.stars {
+  color: #fbb034;
+  font-size: 14px;
+  margin-bottom: 14px;
+}
+
+.testimonial-card p {
+  font-size: 14px;
+  line-height: 1.7;
+  color: #475569;
+  margin-bottom: 22px;
+}
+
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.profile img {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile h4 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #0c2d4a;
+  margin: 0;
+}
+
+.profile span {
+  font-size: 12px;
+  color: #14b8a6;
+}
+
+.floating {
+  position: absolute;
+  animation: float 6s ease-in-out infinite;
+}
+
+.anim-one {
+  left: 40px;
+  bottom: 120px;
+}
+
+.anim-two {
+  right: 60px;
+  top: 120px;
+  animation-delay: 1s;
+}
+
+.anim-three {
+  right: 120px;
+  bottom: 80px;
+  animation-delay: 2s;
+}
+
+.sun-icon {
+  position: absolute;
+  top: 40px;
+  right: 80px;
+  width: 70px;
+}
+
+.flower-icon {
+  position: absolute;
+  left: 60px;
+  top: 50%;
+  width: 40px;
+}
+
+
+@keyframes float {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0); }
 }
